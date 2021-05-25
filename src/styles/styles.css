@@ -50,3 +50,18 @@
       monospace;
   }
   
+  .hero-img {
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .hero-body{
+      padding:px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }

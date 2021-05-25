@@ -5,20 +5,24 @@ import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
+import NavTabs from './components/NavTabs';
 function App() {
   return (
     <Router>
         <div>
-          <Header />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/Home" component={Home} />
+          
+           <Header />
+           <NavTabs/>
+           
+           <Switch>
+              <Route exact path="/home" component={Home} />
+              <Route exact path="/React-Portfolio-1" component={Home} />
               <Route exact path="/about" component={About} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route path="*" component={Home} />
-            </Switch>
-          <Footer />
+            </Switch> 
+        <Footer/>
         </div>
       </Router>
   );

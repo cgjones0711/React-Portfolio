@@ -1,28 +1,26 @@
 import React from "react";
-// import Jumbotron from 'react-bootstrap/Jumbotron'
+import bomb from "../images/bombs_away.png"
 
 
 
-function Home(){
+
+function Header (){
   return (
-  <div>
 
-{/* <Jumbotron>
-  <h1>Hello, world!</h1>
-  <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
-  </p>
-  <p>
-
-  </p>
-</Jumbotron> */}
-
-
-  
-  
+    <div class="$container-max-width" style={{backgroundColor:"black"}}>
+    <div class="notification is-primary" style={{backgroundColor:"black"}}>
+      CJ
+    </div>
   </div>
-);
-  }
+ 
+      // <img style={{height: "128px"}} src={bomb}>
+      // </img>
+  
 
-export default Home;
+  
+  
+
+  )
+}
+
+export default Header;

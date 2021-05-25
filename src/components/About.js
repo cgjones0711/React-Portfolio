@@ -1,16 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
 
-import Footer from "../components/Footer";
 
 function About() {
   return (
     <div>
-      <Header backgroundImage="">
-        <h1>Clayton Jones</h1>
-        <h2>Full-Stack Developer</h2>
-      </Header>
-      <About style={{ marginTop: 30 }}>
+     
+       
+      <div style={{ marginTop: 30 }}>
         <p>
           Full Stack Developer and Army Veteran with collective experience
           training and knowledge in both front end and back end technologies.
@@ -37,11 +33,9 @@ function About() {
         Diversity Awareness, Equal Opportunity
 
         </p>
-      </About>
-      <Footer backgroundImage="">
-        <h1>Clayton Jones</h1>
-        <h2>Full-Stack Developer</h2>
-      </Footer>
+      </div>
+ 
+     
     </div>
   );
 }
