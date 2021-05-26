@@ -1,36 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function NavTabs(props) {
+function NavTabs() {
   return (
-    <ul className="nav nav-tabs right"  style={{backgroundColor:"black",  position: 'absolute', right: 0}}>
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
+    <ul
+      className="nav nav-tabs navtabs"
+      style={{ backgroundColor: "black", position: "absolute", right: 0 }}
+    >
+      <div>
+        <li className="is-active navtabs">
+          <Link to="/home">Home </Link>
+        </li>
+      </div>
+      <li className="navtabs">
+        <Link to="/about"> About </Link>
       </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </a>
+      <li className="navtabs">
+        <Link to="/projects">Projects </Link>
       </li>
-      <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => props.handlePageChange("Portfolio")}
-          className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </a>
-      </li>
-     
     </ul>
   );
 }

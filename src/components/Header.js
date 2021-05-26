@@ -7,8 +7,8 @@ import bomb from "../images/bombs_away.png"
 function Header (){
   return (
 
-    <div class="$container-max-width" style={{backgroundColor:"black"}}>
-    <div class="notification is-primary" style={{backgroundColor:"black"}}>
+    <div className="$container-max-width" style={{backgroundColor:"black"}}>
+    <div className="notification is-primary initals" style={{backgroundColor:"black"}}>
       CJ
     </div>
   </div>
