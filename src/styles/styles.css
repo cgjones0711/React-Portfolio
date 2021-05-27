@@ -84,7 +84,26 @@
 
     }
     .title{
-      font-size: 2.5rem;
+      font-size: 4WORKrem;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      
     }
+    
+ 
+
+    .projects{
+      
+      max-width: 300px;
+      border: solid 2px #ccc;
+      padding: 12px;
+      
+    }
+    
+    .card1{
+      display: flex;
+  justify-content: space-between;
+  text-align: center;
+    }
+
+  
+    
