@@ -3,14 +3,19 @@ import bomb from "../images/bombs_away.png"
 import note from "../images/note-taker.png"
 import recipe from "../images/recipe-blog.png"
 import workout from "../images/workout.png"
+import pizza from "../images/pizza.png"
+import planner from "../images/day-planner.png"
+import employee from "../images/employee.png"
+
 
 export default function Projects() {
     return (
+      <>
         <section className="card1">
             <div className= "projects">
         <div className="card-image">
           <figure className="">
-          <img style={{height: "200px"}} src={note}>
+          <img style={{height: "200px"}} src={pizza}>
       </img>
           </figure>
         </div>
@@ -21,7 +26,7 @@ export default function Projects() {
             </div>
             <div className="media-content">
               
-              <a href="https://notetaker1986.herokuapp.com/">Note Taker</a>
+              <a href="https://limitless-springs-36873.herokuapp.com/">A La Leña Pizza</a>
             </div>
           </div>
             <div className="content">
@@ -86,7 +91,87 @@ export default function Projects() {
           </div>
         </div>
       </section>
+      <section className="card1">
+      <div className= "projects">
+  <div className="card-image">
+    <figure className="">
+    <img style={{height: "200px"}} src={note}>
+</img>
+    </figure>
+  </div>
+  <div className="card-content">
+    <div className="media">
+      <div className="media-left">
+       
+      </div>
+      <div className="media-content">
+        
+        <a href="https://notetaker1986.herokuapp.com/">Note Taker</a>
+      </div>
+    </div>
+      <div className="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. </p>
+    
+      </div>
+    
+    </div>
+  </div>
+  <div className= "projects">
+  <div className="card-image">
+    <figure className="">
+    <img style={{height: "200px"}} src={employee}>
+</img>
+    </figure>
+  </div>
+  <div className="card-content">
+    <div className="media">
+      <div className="media-left">
+       
+      </div>
+      <div className="media-content">
+        
+  
+      <a href="https://cgjones0711.github.io/Employee-Directory/">Recipe Blog</a>
+      </div>
+    </div>
+
+    <div className="content">
+     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. </p>
+  
+     
+    </div>
+    </div>
+  </div>
+  <div className= "projects">
+  <div className="card-image">
+    <figure className="">
+    <img style={{height: "200px"}} src={planner}>
+</img>
+    </figure>
+  </div>
+  <div className="card-content">
+    <div className="media">
+      <div className="media-left">
+       
+      </div>
+      <div className="media-content">
       
+        <a href="https://cgjones0711.github.io/Day-Planner/">Day Planner</a>
+      </div>
+    </div>
+
+    <div className="content">
+   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. </p>
+
+   </div>  
+    
+    </div>
+  </div>
+</section>
+     </> 
  
     )
 }

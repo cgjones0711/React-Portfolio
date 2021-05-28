@@ -8,7 +8,7 @@ export default function Home() {
       <section className="hero is-primary" style={{backgroundColor:"black", }}>
       <div className="hero-body">
       <p className="title">
-     UX/UI
+     FULL STACK DEVELOPMENT
     </p>
     <p class="subtitle">
       

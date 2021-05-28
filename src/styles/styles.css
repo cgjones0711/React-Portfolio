@@ -84,7 +84,7 @@
 
     }
     .title{
-      font-size: 4WORKrem;
+      font-size: 3.5rem;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      
     }
@@ -103,6 +103,12 @@
       display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-bottom: 15px;
+    }
+
+    .aboutHeading{
+      font-size: 2rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     }
 
   
