@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.d60f6190.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.0c32d8b8.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0c32d8b8.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.8e19d3e9.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.8e19d3e9.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.72aece88.chunk.js": "/React-Portfolio/static/js/2.72aece88.chunk.js",
+    "static/js/2.72aece88.chunk.js.map": "/React-Portfolio/static/js/2.72aece88.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d60f6190.chunk.css.map": "/React-Portfolio/static/css/main.d60f6190.chunk.css.map",
+    "static/js/2.72aece88.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.72aece88.chunk.js.LICENSE.txt",
+    "static/media/bombs_away.1d226b70.png": "/React-Portfolio/static/media/bombs_away.1d226b70.png",
+    "static/media/day-planner.3dcab2cc.png": "/React-Portfolio/static/media/day-planner.3dcab2cc.png",
+    "static/media/employee.243fcb4a.png": "/React-Portfolio/static/media/employee.243fcb4a.png",
+    "static/media/note-taker.ad297c2b.png": "/React-Portfolio/static/media/note-taker.ad297c2b.png",
+    "static/media/pizza.1abe6c6b.png": "/React-Portfolio/static/media/pizza.1abe6c6b.png",
+    "static/media/recipe-blog.81f1dbc3.png": "/React-Portfolio/static/media/recipe-blog.81f1dbc3.png",
+    "static/media/selfie.5031ac47.png": "/React-Portfolio/static/media/selfie.5031ac47.png",
+    "static/media/workout.a9323406.png": "/React-Portfolio/static/media/workout.a9323406.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e19d3e9.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.72aece88.chunk.js",
+    "static/css/main.d60f6190.chunk.css",
+    "static/js/main.0c32d8b8.chunk.js"
+  ]
+}
