@@ -51,11 +51,7 @@ export default function Projects() {
             </div>
 
             <div className="content">
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
-              </p>
+             
             </div>
           </div>
         </div>
@@ -76,11 +72,7 @@ export default function Projects() {
             </div>
 
             <div className="content">
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
-              </p>
+              
             </div>
           </div>
         </div>
@@ -100,10 +92,7 @@ export default function Projects() {
               </div>
             </div>
             <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
-              </p>
+              
             </div>
           </div>
         </div>
@@ -118,17 +107,13 @@ export default function Projects() {
               <div className="media-left"></div>
               <div className="media-content">
                 <a href="https://cgjones0711.github.io/Employee-Directory/">
-                  Recipe Blog
+                  Employee Directory 
                 </a>
               </div>
             </div>
 
             <div className="content">
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
-              </p>
+              
             </div>
           </div>
         </div>
@@ -149,11 +134,7 @@ export default function Projects() {
             </div>
 
             <div className="content">
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
-              </p>
+             
             </div>
           </div>
         </div>
