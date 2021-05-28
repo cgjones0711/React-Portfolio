@@ -28,8 +28,7 @@ export default function Projects() {
             </div>
             <div className="content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.{" "}
+              Team built web page where users have the ability to sign in, order a pizza, and proceed to pay at checkout with cart.
               </p>
             </div>
           </div>
@@ -51,7 +50,9 @@ export default function Projects() {
             </div>
 
             <div className="content">
-             
+            <p>
+            Application requiring log in so the user may enter in new recipes and comment on others.
+              </p>
             </div>
           </div>
         </div>
@@ -72,7 +73,9 @@ export default function Projects() {
             </div>
 
             <div className="content">
-              
+            <p>
+            Tracker that provides options to create a new workout and track the user’s workout regimen.
+              </p>
             </div>
           </div>
         </div>
@@ -92,7 +95,9 @@ export default function Projects() {
               </div>
             </div>
             <div className="content">
-              
+            <p>
+                User friendly application which the user is able to add a title and create notes.
+              </p>
             </div>
           </div>
         </div>
@@ -113,7 +118,9 @@ export default function Projects() {
             </div>
 
             <div className="content">
-              
+            <p>
+                Sort Function web design using large APIs.
+              </p>
             </div>
           </div>
         </div>
@@ -134,7 +141,9 @@ export default function Projects() {
             </div>
 
             <div className="content">
-             
+            <p>
+               Color filled planner that changes with the hours of the day.
+              </p>
             </div>
           </div>
         </div>
