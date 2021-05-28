@@ -106,10 +106,35 @@
   padding-bottom: 15px;
     }
 
+    .titleHeading{
+      font-size: 2rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+      position: relative;
+    }
+
     .aboutHeading{
       font-size: 2rem;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+      position: relative;
+      margin-left: 24px;
+      
     }
+  .aboutMe{
+    margin-left: 215px;
+    position:absolute;
+    top: 180px;
+  }
 
+  .aboutFont{
+    font-size: large;
+    font-family: serif;
+  }
   
+  .educationText{
+    margin-left: 24px;
+  }
+  .selfie{
+   position: relative;
+   top: 12px;
+  }
     

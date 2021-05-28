@@ -7,7 +7,7 @@ function Footer() {
           <div className="content has-text-centered">
             <p>
               <strong> CLAYTON JONES DESIGNS</strong> <a target="_blank" rel="noreferrer" href="https://www.github.com/cgjones0711">GITHUB</a> ||
-              <a target="_blank" rel="noreferrer" href="www.linkedin.com/in/clayton-jones-8077101b6">LINKEDIN</a> 
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/clayton-jones-8077101b6">LINKEDIN</a> 
               
             </p>
           </div>
